@@ -1,6 +1,0 @@
-Shaoyi Huang is a Ph.D candidate advised by Prof. Caiwen Ding in 
-University of Connecticut. She received his M.S. degree in Electrical 
-and Computer Engineering from University of Rochester in 2018 and 
-B.S. degree in Electronics and Information Engineering from Wuhan 
-University of Technology in 2015. Her research interests are model 
-compression, software and hardware co-design.
