@@ -216,6 +216,24 @@
             </td>
             <td width="75%" valign="middle">
               <a id="3DSP">
+                <papertitle>Accel-GCN: High-Performance GPU Accelerator Design for Graph Convolution Networks</papertitle>
+              </a>
+              <br>
+              X. Xie, H. Peng, A. Hasan, <b>S. Huang*</b>, J. Zhao, H. Fang, W. Zhang, T. Geng, O. Khan, C. Ding
+              <br>
+              <em><b>[ICCAD 2023]</b></em> <i>Proceedings of the International Conference on Computer Vision</i>
+              <br>
+              <a href="https://arxiv.org/pdf/2308.10134.pdf">Paper</a> / <a href="https://github.com/HarveyP123/AutoReP">Code</a>
+            </td>
+          </tr>
+
+          
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/Shaoyi/autoRep.png" alt="3DSP" width="160" height="120" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a id="3DSP">
                 <papertitle>AutoReP: Automatic ReLU Replacement for Fast Private Network Inference</papertitle>
               </a>
               <br>
@@ -224,10 +242,6 @@
               <em><b>[ICCV 2023]</b></em> <i>Proceedings of the International Conference on Computer Vision</i>
               <br>
               <a href="https://arxiv.org/pdf/2308.10134.pdf">PDF</a> / <a href="https://github.com/HarveyP123/AutoReP">Code</a>
-              <p>We present AutoReP to lessen non-linear operators and decrease the computation and communication cost in private inference (PI) applications. 
-                Our framework could not only automates the selection of ReLU and polynomial functions
-                to speed up PI applications but also maintain model expressivity.
-              </p>
             </td>
           </tr>
 
@@ -245,11 +259,6 @@
               <em><b>[IJCAI 2023]</b></em> <i>The 32nd International Joint Conference On Artificial Intelligence</i>
               <br>
               <a href="https://www.ijcai.org/proceedings/2023/0568.pdf">PDF</a>
-              <p>We reveal that the knowledge learned in advance but discarded from the pruned 
-                attention heads plays a crucial role in maintaining model accuracy. 
-                We provide an automatic head pruning approach that achieves the best accuracy-sparsity tradeoff by reformulating the head pruning optimization.
-                We also propose the peer distillation strategy to recycle the discarded knowledge from the pruned heads,
-                achieving high compression rates with no accuracy degradation on nine GLUE benchmark.</p>
             </td>
           </tr>
           
@@ -267,7 +276,6 @@
               <em><b>[DAC 2023]</b></em> <i>The 60th Design Automation Conference</i>
               <br>
               <a href="https://arxiv.org/pdf/2211.16667.pdf">PDF</a>
-              <p>To assist explainable sparse training, we propose important weights exploitation and weights coverage exploration to characterize sparse training. Our method does not need to train dense models, achieving up to 95% sparsity ratio and even higher accuracy than dense training, with same amount of iterations.</p>
             </td>
           </tr>
 
@@ -285,7 +293,6 @@
               <em><b>[DAC 2023]</b></em> <i>The 60th Design Automation Conference</i>
               <br>
               <a href="https://arxiv.org/pdf/2304.12214.pdf">PDF</a>
-              <p> We propose an energy efficient spiking neural network training workflow, and design a new drop-andgrow strategy with decreasing number of non-zero weights in the process of dynamically updating sparse mask. We demonstrate extremely high sparsity (i.e., 99%) model performance in SNN based vision tasks.</p>
             </td>
           </tr>	
         </tbody></table>
@@ -316,8 +323,6 @@
               <br>
               <em><b>[ACL 2022]</b></em> <i>The 60th Annual Meeting of the Association for Computational Linguistics</i>
               <br>
-              <a href="https://arxiv.org/pdf/2110.08190.pdf">PDF</a> / <a href="https://github.com/shaoyiHusky/SparseProgressiveDistillation">Code</a>
-              <p>We study <b>network pruning of Transformer-based language models</b> under the pre-training and fine-tuning paradigm and propose a <b>counter-traditional hypothesis</b> that pruning increases the risk of overfitting when performed during the fine-tuning phase.</p>
             </td>
           </tr>
           
@@ -335,8 +340,6 @@
               <em><b>[DAC 2022]</b></em> <i>The 59th Design Automation Conference</i>
               <br>
               <a href="https://arxiv.org/pdf/2208.03646.pdf">PDF</a>
-              <p>We propose a sequence length adaptive design to allocate coarse pipeline stages dynamically to eliminate pipeline bubbles and achieve the highest possible throughput under different sequence length inputs. Experiments show that our design has very small accuracy loss and has 80.2× and 2.6× speedup compared to CPU
-              and GPU implementation, and 4 × higher energy efficiency than state-of-the-art GPU accelerator optimized via CUBLAS GEMM.</p>
             </td>
           </tr>
   
@@ -354,11 +357,6 @@
               <em><b>[ICCD 2022]</b></em> <i>40th IEEE International Conference on Computer Design</i>
               <br>
               <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9978504">PDF</a> / <a href="https://github.com/HarveyP123/ICCD_SpTrn_SLR">Code</a>
-              <p>In our GNN sparsification framework, we sparsify the weights of representative Feed-forward Neural Network architecture and Graph Convolutional
-                Networks (GCN) which propagate external node embeddings through its layers for link prediction and node classification tasks on graph. 
-                For the brain, Cora and CiteSeer datasets, we achieve a much higher accuracy using the sparse training method with much lower training FLOPs compared
-                to the train and prune method.
-              </p>
             </td>
           </tr>
 
@@ -376,10 +374,6 @@
               <em><b>[ICCD 2022]</b></em> <i>40th IEEE International Conference on Computer Design</i>
               <br>
               <a href="https://khan.engr.uconn.edu/pubs/iccd22-reram-gnn.pdf>PDF</a>
-              <p>we propose a novel ReRAMbased GCN acceleration co-design (i.e. algorithm-hardware) framework, CoDG-ReRAM, that can deliver real-time GCN 
-                inference with high accuracy. Experimental results show that the proposed work improves performance and 
-                energy efficiency by 4× and 5.1 × respectively over SOTA ReRAM-based accelerators of GCNs with a negligible accuracy loss.
-              </p>
             </td>
           </tr> -->
 
@@ -397,9 +391,6 @@
               <em><b>[ICCD 2022]</b></em> <i>40th IEEE International Conference on Computer Design</i>
               <br>
               <a href="https://khan.engr.uconn.edu/pubs/iccd22-reram-gnn.pdf">PDF</a>
-              <p>We propose a novel ReRAMbased GCN acceleration co-design (i.e. algorithm-hardware) framework, CoDG-ReRAM, that can deliver real-time GCN 
-                inference with high accuracy. Experimental results show that the proposed work improves performance and 
-                energy efficiency by 4× and 5.1 × respectively over SOTA ReRAM-based accelerators of GCNs with a negligible accuracy loss.</p>
             </td>
           </tr>
   
@@ -418,10 +409,6 @@
               <em><b>[IEEE BigData 2022]</b></em> <i>IEEE International Conference on Big Data (Big Data)</i>
               <br>
               <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10020711">PDF</a>
-              <p>We propose a novel defense algorithm, Gap score Regularization Integrated Pruning (GRIP), 
-                that is optimized by finding a sub-network from the original over-parameterized NLP model. 
-                GRIP can prevent privacy leakage from MIA and achieve similar accuracy to the original NLP model. 
-                As an additional side benefit, GRIP can also reduce the model storage and the computation overhead.</p>
             </td>
           </tr>
 
@@ -455,9 +442,6 @@
               <br>
               <em><b>[SC 2021]</b></em> <i>Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis</i>
               <br>
-              <a href="https://dl.acm.org/doi/pdf/10.1145/3458817.3476138">PDF</a> / <a href="https://github.com/cctry/E.T.">Code</a>
-              <p>We evaluate E.T. across a variety of benchmarks for Transformer, BERTBASE and DistilBERT, where E.T. presents superior performance over the mainstream projects, including the popular Nvidia
-                Enterprise solutions, i.e., TensorRT and FasterTransformer.</p>
             </td>
           </tr>
   
@@ -475,14 +459,6 @@
               <em><b>[ICCAD 2021]</b></em> <i>2021 IEEE/ACM International Conference On Computer Aided Design (ICCAD)</i>
               <br>
               <a href="https://arxiv.org/pdf/2110.10030.pdf">PDF</a>
-              <p>We design a accelerator that
-                takes advantage of HP to solve the problem of concurrent random
-                access. Experiments on Transformer and TinyBert model show
-                that our framework can find different devices for various LC
-                and AC, covering from low-end devices to high-end devices. Our
-                HP can achieve higher sparsity ratio and is more flexible than
-                other sparsity pattern. Our framework can achieve 37×, 1.9×,
-                1.7× speedup compared to CPU,GPU and FPGA,respectively.</p>
             </td>
           </tr>
 
@@ -500,11 +476,6 @@
               <em><b>[ISQED 2021]</b></em> <i>2021 22nd International Symposium on Quality Electronic Design (ISQED)</i>
               <br>
               <a href="https://wangshusen.github.io/papers/ISQED2021.pdf">PDF</a>
-              <p>We implement the Transformer model
-                with proper hardware scheduling, and the experiments show that
-                the Transformer inference on FPGA achieves 10.35 ms latency
-                with the batch size of 32, which is 10.96 × speed up comparing to
-                CPU platform and 2.08 × speed up comparing to GPU platform.</p>
             </td>
           </tr>
     
