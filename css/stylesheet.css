@@ -177,6 +177,12 @@ span.highlight {
   background: white;
 }
 
-.hover_img a { position:relative; }
-.hover_img a span { position:absolute; display:none; z-index:99; }
-.hover_img a:hover span { display:block; }
+.container {
+  display: inline-block;
+}
+.manImg {
+  display: none;
+}
+.hover-text:hover ~ .manImg {
+  display: block;  
+}
